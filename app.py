@@ -12,6 +12,8 @@ class Person:
     def change_favorite_colour(self):
         self.favorite_Colour = "white"
     def get_age_in_ten_years(self):
-        print(f"Customer name: {self.age+10}")
+        print(f"Age in ten year will be: {self.age+10}")
 
 a = Person(915433,"Ivan","Hernandez","Blue",36,"Not")
+
+a.get_age_in_ten_years()
