@@ -15,9 +15,10 @@ class Person:
         self.favorite_Colour = new_color
 
     def get_age_in_ten_years(self):
-        print(f"Age in ten year will be: {self.age+10}")
+        # print(f"Age in ten year will be: {self.age+10}")
+        return f"Age in ten year will be: {self.age+10}"
 
 
 a = Person(915433, "Ivan", "Hernandez", "Blue", 36, "Not")
 
-a.get_age_in_ten_years()
+age_in_ten = a.get_age_in_ten_years()
